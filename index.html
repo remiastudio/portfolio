@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Portfolio de REMIA STUDIO : jeux, logiciels et créations" />
+<title>REMIA STUDIO - Portfolio</title>
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+    <nav class="container" aria-label="Navigation principale">
+        <a class="brand" href="./">REMIA STUDIO</a>
+        <ul class="nav">
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main id="contenu" class="container">
+    <section class="hero">
+        <h1>Créateur de jeux vidéo & logiciels</h1>
+        <p>Bienvenue sur mon portfolio. Découvrez mes jeux, outils et autres créations.</p>
+        <a class="cta" href="#projets">Voir mes projets</a>
+    </section>
+    <section id="projets" class="grid" aria-label="Projet">
+            <h2>Projets</h2>
+        <article class="card">
+            <h3>Projet 1</h3>
+            <p>Z-APOCALYPSE est un jeu tower defense.</p>
+        </article>
+        <article class="card placeholder">
+            <h3>Projet 2</h3>
+            <p>AutoPickFilter est un plugin qui permet de sélectionner les items à ramasser automatiquement dans Valheim.</p>
+        </article>
+    </section>
+    <section id="apropos">
+        <h2>À propos</h2>
+        <p>Je suis Rémy Morandin, développeur en devenir, passionné par Unity et Unreal Engine le codage en C# et HTML.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Écrivez-moi : <a href="mailto:remia.studio1@gmail.com">remia.studio1@gmail.com</a></p>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container">
+        <small>© <span id="annee"></span> Rémia Studio. Tous droits réservés.</small>
+    </div>
+</footer>
+<script>
+    document.getElementById('annee').textContent = new Date().getFullYear()
+</script>
+</body>
+</html>
